@@ -1,0 +1,682 @@
+[
+  {
+    "elapsedTime": 5.0,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 1.0
+  },
+  {
+    "elapsedTime": 6.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 1.0
+  },
+  {
+    "elapsedTime": 10.035,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 2.0
+  },
+  {
+    "elapsedTime": 12.12,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 2.0
+  },
+  {
+    "elapsedTime": 15.106,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 3.0
+  },
+  {
+    "elapsedTime": 18.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 3.0
+  },
+  {
+    "elapsedTime": 20.215,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 4.0
+  },
+  {
+    "elapsedTime": 24.72,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 4.0
+  },
+  {
+    "elapsedTime": 25.362,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 5.0
+  },
+  {
+    "elapsedTime": 30.55,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 6.0
+  },
+  {
+    "elapsedTime": 31.2,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 5.0
+  },
+  {
+    "elapsedTime": 35.779,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 7.0
+  },
+  {
+    "elapsedTime": 37.8,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 6.0
+  },
+  {
+    "elapsedTime": 41.052,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 8.0
+  },
+  {
+    "elapsedTime": 44.52,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 7.0
+  },
+  {
+    "elapsedTime": 46.368,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 9.0
+  },
+  {
+    "elapsedTime": 51.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 8.0
+  },
+  {
+    "elapsedTime": 51.731,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 10.0
+  },
+  {
+    "elapsedTime": 57.142,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 11.0
+  },
+  {
+    "elapsedTime": 58.32,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 9.0
+  },
+  {
+    "elapsedTime": 62.602,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 12.0
+  },
+  {
+    "elapsedTime": 65.4,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 10.0
+  },
+  {
+    "elapsedTime": 68.113,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 13.0
+  },
+  {
+    "elapsedTime": 72.6,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 11.0
+  },
+  {
+    "elapsedTime": 73.677,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 14.0
+  },
+  {
+    "elapsedTime": 79.295,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 15.0
+  },
+  {
+    "elapsedTime": 79.92,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 12.0
+  },
+  {
+    "elapsedTime": 84.971,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 16.0
+  },
+  {
+    "elapsedTime": 87.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 13.0
+  },
+  {
+    "elapsedTime": 90.705,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 17.0
+  },
+  {
+    "elapsedTime": 94.92,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 14.0
+  },
+  {
+    "elapsedTime": 96.499,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 18.0
+  },
+  {
+    "elapsedTime": 102.357,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 19.0
+  },
+  {
+    "elapsedTime": 102.6,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 15.0
+  },
+  {
+    "elapsedTime": 108.279,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 20.0
+  },
+  {
+    "elapsedTime": 110.4,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 16.0
+  },
+  {
+    "elapsedTime": 114.269,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 21.0
+  },
+  {
+    "elapsedTime": 118.32,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 17.0
+  },
+  {
+    "elapsedTime": 120.328,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 22.0
+  },
+  {
+    "elapsedTime": 126.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 18.0
+  },
+  {
+    "elapsedTime": 126.46,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 23.0
+  },
+  {
+    "elapsedTime": 132.666,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 24.0
+  },
+  {
+    "elapsedTime": 134.52,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 19.0
+  },
+  {
+    "elapsedTime": 138.949,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 25.0
+  },
+  {
+    "elapsedTime": 142.8,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 20.0
+  },
+  {
+    "elapsedTime": 145.312,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 26.0
+  },
+  {
+    "elapsedTime": 151.2,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 21.0
+  },
+  {
+    "elapsedTime": 151.758,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 27.0
+  },
+  {
+    "elapsedTime": 158.29,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 28.0
+  },
+  {
+    "elapsedTime": 159.72,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 22.0
+  },
+  {
+    "elapsedTime": 164.91,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 29.0
+  },
+  {
+    "elapsedTime": 168.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 23.0
+  },
+  {
+    "elapsedTime": 171.621,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 30.0
+  },
+  {
+    "elapsedTime": 177.12,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 24.0
+  },
+  {
+    "elapsedTime": 178.428,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 31.0
+  },
+  {
+    "elapsedTime": 185.333,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 32.0
+  },
+  {
+    "elapsedTime": 186.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 25.0
+  },
+  {
+    "elapsedTime": 192.34,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 33.0
+  },
+  {
+    "elapsedTime": 195.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 26.0
+  },
+  {
+    "elapsedTime": 199.451,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 34.0
+  },
+  {
+    "elapsedTime": 204.12,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 27.0
+  },
+  {
+    "elapsedTime": 206.672,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 35.0
+  },
+  {
+    "elapsedTime": 213.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 28.0
+  },
+  {
+    "elapsedTime": 214.005,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 36.0
+  },
+  {
+    "elapsedTime": 221.456,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 37.0
+  },
+  {
+    "elapsedTime": 222.72,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 29.0
+  },
+  {
+    "elapsedTime": 229.026,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 38.0
+  },
+  {
+    "elapsedTime": 232.2,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 30.0
+  },
+  {
+    "elapsedTime": 236.722,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 39.0
+  },
+  {
+    "elapsedTime": 241.8,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 31.0
+  },
+  {
+    "elapsedTime": 244.547,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 40.0
+  },
+  {
+    "elapsedTime": 251.52,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 32.0
+  },
+  {
+    "elapsedTime": 252.506,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 41.0
+  },
+  {
+    "elapsedTime": 260.604,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 42.0
+  },
+  {
+    "elapsedTime": 261.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 33.0
+  },
+  {
+    "elapsedTime": 268.845,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 43.0
+  },
+  {
+    "elapsedTime": 271.32,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 34.0
+  },
+  {
+    "elapsedTime": 277.234,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 44.0
+  },
+  {
+    "elapsedTime": 281.4,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 35.0
+  },
+  {
+    "elapsedTime": 285.778,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 45.0
+  },
+  {
+    "elapsedTime": 291.6,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 36.0
+  },
+  {
+    "elapsedTime": 294.48,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 46.0
+  },
+  {
+    "elapsedTime": 301.92,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 37.0
+  },
+  {
+    "elapsedTime": 303.346,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 47.0
+  },
+  {
+    "elapsedTime": 312.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 38.0
+  },
+  {
+    "elapsedTime": 312.383,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 48.0
+  },
+  {
+    "elapsedTime": 321.596,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 49.0
+  },
+  {
+    "elapsedTime": 322.92,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 39.0
+  },
+  {
+    "elapsedTime": 330.992,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 50.0
+  },
+  {
+    "elapsedTime": 333.6,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 40.0
+  },
+  {
+    "elapsedTime": 340.577,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 51.0
+  },
+  {
+    "elapsedTime": 344.4,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 41.0
+  },
+  {
+    "elapsedTime": 350.357,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 52.0
+  },
+  {
+    "elapsedTime": 355.32,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 42.0
+  },
+  {
+    "elapsedTime": 360.339,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 53.0
+  },
+  {
+    "elapsedTime": 366.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 43.0
+  },
+  {
+    "elapsedTime": 370.53,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 54.0
+  },
+  {
+    "elapsedTime": 377.52,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 44.0
+  },
+  {
+    "elapsedTime": 380.939,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 55.0
+  },
+  {
+    "elapsedTime": 388.8,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 45.0
+  },
+  {
+    "elapsedTime": 391.571,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 56.0
+  },
+  {
+    "elapsedTime": 400.2,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 46.0
+  },
+  {
+    "elapsedTime": 402.436,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 57.0
+  },
+  {
+    "elapsedTime": 411.72,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 47.0
+  },
+  {
+    "elapsedTime": 413.541,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 58.0
+  },
+  {
+    "elapsedTime": 423.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 48.0
+  },
+  {
+    "elapsedTime": 424.895,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 59.0
+  },
+  {
+    "elapsedTime": 435.12,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 49.0
+  },
+  {
+    "elapsedTime": 436.506,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 60.0
+  },
+  {
+    "elapsedTime": 447.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 50.0
+  },
+  {
+    "elapsedTime": 448.383,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 61.0
+  },
+  {
+    "elapsedTime": 459.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 51.0
+  },
+  {
+    "elapsedTime": 460.536,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 62.0
+  },
+  {
+    "elapsedTime": 471.12,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 52.0
+  },
+  {
+    "elapsedTime": 472.975,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 63.0
+  },
+  {
+    "elapsedTime": 483.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 53.0
+  },
+  {
+    "elapsedTime": 485.709,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 64.0
+  },
+  {
+    "elapsedTime": 495.72,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 54.0
+  },
+  {
+    "elapsedTime": 498.748,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 65.0
+  },
+  {
+    "elapsedTime": 508.2,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 55.0
+  },
+  {
+    "elapsedTime": 512.104,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 66.0
+  },
+  {
+    "elapsedTime": 520.8,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 56.0
+  },
+  {
+    "elapsedTime": 525.787,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 67.0
+  },
+  {
+    "elapsedTime": 533.52,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 57.0
+  },
+  {
+    "elapsedTime": 539.809,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 68.0
+  },
+  {
+    "elapsedTime": 546.36,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 58.0
+  },
+  {
+    "elapsedTime": 554.182,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 69.0
+  },
+  {
+    "elapsedTime": 559.32,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 59.0
+  },
+  {
+    "elapsedTime": 568.918,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 70.0
+  },
+  {
+    "elapsedTime": 572.4,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 60.0
+  },
+  {
+    "elapsedTime": 584.03,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 71.0
+  },
+  {
+    "elapsedTime": 585.6,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 61.0
+  },
+  {
+    "elapsedTime": 598.92,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 62.0
+  },
+  {
+    "elapsedTime": 599.531,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 72.0
+  },
+  {
+    "elapsedTime": 600.0,
+    "name": "Carmen Cincotti",
+    "totalHotDogsEaten": 62.08
+  },
+  {
+    "elapsedTime": 600.0,
+    "name": "Joey Chestnut",
+    "totalHotDogsEaten": 72.03
+  }
+]
