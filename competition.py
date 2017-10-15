@@ -23,7 +23,8 @@ class Competition(object):
     """
     Implement or extend this class to simulate the competition.
     """
-
+    winner = "No One"
+    
     def __init__(self, competitors, duration):
         """
         Initialize the competition.
@@ -31,15 +32,52 @@ class Competition(object):
         :param competitors: A dictionary of {competitor name: hot dog function}.
         :param duration: Duration in seconds of the competition.
         """
-        raise NotImplementedError()
+        
+        self.competitors = competitors
+        self.duration = duration
+        if duration <= 0:
+            raise InvalidDurationError()
+        if len(competitors.keys()) > 2:
+            raise NotImplementedForMoreThanTwoCompetitorsError()
 
     def run(self):
         """
         Run a simulation of the competition.
-
+		
         :return: List of (or iterator over) Events.
         """
-        raise NotImplementedError()
+
+        contestants = self.competitors.keys()
+        all_events = []
+        contestantNum = 0
+        most_hd_ate = 0
+        for i in contestants:
+            events_arr = []
+            cur_time = 0
+            hd_func = self.competitors[i]    
+            n = 0
+            while(cur_time + hd_func(n) < self.duration):
+                cur_event = Event(cur_time + hd_func(n), i, n + 1).rounded()
+                events_arr.append(cur_event)
+                cur_time += hd_func(n)
+                n += 1
+            partial_hd = (self.duration - cur_time) * (1.0 / (cur_time - (cur_time - hd_func(n))))
+            if(n + partial_hd > most_hd_ate):    # update the winner if this contestant ate the most hot dogs
+                most_hd_ate = n + partial_hd
+                global winner
+                winner = i
+            events_arr.append(Event(self.duration, i, n + partial_hd).rounded())
+            events_arr.append(Event(self.duration + 1,'Not A Contestant',0))   # to test when our sorting is done
+            all_events.append([])       # create an another column to store this contestant's events data
+            all_events[contestantNum] = events_arr
+            contestantNum += 1        
+        sorted_events = []
+        while (not all_events[0][0].__eq__(all_events[1][0])):  # finishes when we reach the flagged event for both contestants
+            if(all_events[0][0].__lt__(all_events[1][0])):
+                sorted_events.append(all_events[0].pop(0))
+            else:
+                sorted_events.append(all_events[1].pop(0))	
+        return sorted_events	
 
     def winner(self):
         """
@@ -47,7 +85,7 @@ class Competition(object):
 
         :return: Name of winner.
         """
-        raise NotImplementedError()
+        return winner
 
 
 class Event(object):
