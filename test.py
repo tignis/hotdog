@@ -12,7 +12,7 @@ import unittest
 from itertools import zip_longest
 
 import testcases
-from competition import Event
+from competition import Event, Competition
 
 
 class HotDogTest(unittest.TestCase):
@@ -53,7 +53,10 @@ class HotDogTest(unittest.TestCase):
 
 
 class YourTest(HotDogTest):
-    def test_your_competition_class(self):
-        # TODO: Run tests against your competition class.
-        # self.run_test(YourCompetitionClass)
-        pass
+    def test_competition(self):
+        print('Pre Test execution')
+        self.run_test(competition_class=Competition)
+        print('Post Test execution')
+
+if __name__=='__main__':
+    unittest.main()

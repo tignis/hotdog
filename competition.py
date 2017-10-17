@@ -6,7 +6,7 @@
 Implement the Competition class.
 """
 from decimal import Decimal
-
+from operator import attrgetter
 
 def round_value(value, precision=Decimal('1.000')):
     """
@@ -31,7 +31,10 @@ class Competition(object):
         :param competitors: A dictionary of {competitor name: hot dog function}.
         :param duration: Duration in seconds of the competition.
         """
-        raise NotImplementedError()
+        self.competitors = competitors
+        self.duration = duration
+        self.events = []
+        self.competition_winner = 'Error: Competition has no events.'
 
     def run(self):
         """
@@ -39,7 +42,37 @@ class Competition(object):
 
         :return: List of (or iterator over) Events.
         """
-        raise NotImplementedError()
+
+        events = []
+
+        for name_key in self.competitors:
+            time_cursor = 0.000
+            hotdog_cursor = 0.000
+            while time_cursor <= self.duration:
+                time_cursor += self.competitors[name_key](hotdog_cursor)
+                hotdog_cursor += 1.000
+
+                # append Event for all whole hotdogs eaten within the competition duration
+                if time_cursor <= self.duration:
+                    events.append(Event(elapsed_time=time_cursor,
+                                        name=name_key,
+                                        total_hot_dogs_eaten=hotdog_cursor).rounded())
+
+            # Add last Event for fractional hotdog eaten as time expired
+            fractional_hotdog = (hotdog_cursor-1)+(self.duration - events[-1].elapsed_time)/(time_cursor - events[-1].elapsed_time)
+            events.append(Event(elapsed_time=self.duration,
+                                name=name_key,
+                                total_hot_dogs_eaten=fractional_hotdog).rounded())
+
+        # store the sorted events as the instance events
+        self.events = sorted(events, key=attrgetter('elapsed_time', 'name'))
+
+        # set the instance competition winner
+        self.competition_winner = self.winner()
+
+        # return the list of Events sorted by 'elapsed_time' then by 'name'
+        return self.events
+
 
     def winner(self):
         """
@@ -47,7 +80,8 @@ class Competition(object):
 
         :return: Name of winner.
         """
-        raise NotImplementedError()
+        # the winner will be the name of the 0th element of the events list sorted by total hot dogs eaten
+        return sorted(self.events, key=attrgetter('total_hot_dogs_eaten'))[0].name
 
 
 class Event(object):
