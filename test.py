@@ -13,6 +13,7 @@ from itertools import zip_longest
 
 import testcases
 from competition import Event
+from competition import Competition
 
 
 class HotDogTest(unittest.TestCase):
@@ -55,5 +56,13 @@ class HotDogTest(unittest.TestCase):
 class YourTest(HotDogTest):
     def test_your_competition_class(self):
         # TODO: Run tests against your competition class.
-        # self.run_test(YourCompetitionClass)
-        pass
+        self.run_test(Competition)
+
+        for testcase in testcases.testcases:
+            competition = Competition(competitors=testcase['competitors'],
+                                            duration=testcase['duration'])
+            events = list(competition.run())
+
+            expected_winner = events[len(events)-1].name
+            real_winner = competition.winner()
+            self.assertEqual(real_winner, expected_winner)

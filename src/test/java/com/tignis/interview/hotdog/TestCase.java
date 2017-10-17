@@ -22,7 +22,18 @@ public class TestCase {
                         return totalHotDogsEaten * 0.120 + 6;
                     }
                 });
-            }}, 600, "/2017.json"));
+            }}, 600, "/2017.json"), new TestCase(new HashMap<String, HotDogFunction>() {{
+                put("Joey Chestnut", new HotDogFunction() {
+                    public double nextHotDogDuration(int totalHotDogsEaten) {
+                        return Math.exp(0.0344 * totalHotDogsEaten) + 4;
+                    }
+                });
+                put("Carmen Cincotti", new HotDogFunction() {
+                    public double nextHotDogDuration(int totalHotDogsEaten) {
+                        return totalHotDogsEaten * 0.120 + 6;
+                    }
+                });
+            }}, 1200, "/2017.json"));
     public Map<String, HotDogFunction> competitors;
     public double duration;
     public String results;

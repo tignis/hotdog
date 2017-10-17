@@ -4,6 +4,7 @@
 
 package com.tignis.interview.hotdog;
 
+import java.io.IOException;
 import java.util.Map;
 
 /**
@@ -11,10 +12,15 @@ import java.util.Map;
  */
 
 public abstract class Competition {
+    public Map<String, HotDogFunction> competitors;
+    public double duration;
+
     Competition(Map<String, HotDogFunction> competitors, double duration) {
+        this.competitors = competitors;
+        this.duration = duration;
     }
 
-    public abstract Iterable<Event> run();
+    public abstract Iterable<Event> run() throws IOException;
 
-    public abstract String winner();
+    public abstract String winner() throws IOException;
 }
