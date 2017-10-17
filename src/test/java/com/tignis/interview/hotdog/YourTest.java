@@ -12,6 +12,8 @@ public class YourTest extends HotDogTest {
     public void testYourCompetitionClass() throws IOException {
         for (TestCase testCase : TestCase.testCases) {
             /* TODO: Run each test case against a new instance of your competition class. */
+            Comp comp = new Comp(testCase.competitors,testCase.duration);
+            runTestCase(testCase,comp );
         }
     }
 }
