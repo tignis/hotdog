@@ -61,7 +61,7 @@ public class Event implements Comparable<Event> {
      */
     private static double roundValue(double value, int precision) {
         BigDecimal bd = new BigDecimal(value);
-        bd = bd.setScale(precision, RoundingMode.HALF_UP);
+        bd = bd.setScale(precision, BigDecimal.ROUND_HALF_EVEN);
         return bd.doubleValue();
     }
 
