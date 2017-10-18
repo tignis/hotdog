@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.tignis.interview.hotdog.HotDogFunction;
+
 public class TestCase {
     public static List<TestCase> testCases = Arrays.asList(
             new TestCase(new HashMap<String, HotDogFunction>() {{
@@ -22,8 +24,7 @@ public class TestCase {
                         return totalHotDogsEaten * 0.120 + 6;
                     }
                 });
-            }}, 600, "/2017.json")
-    );
+            }}, 600, "/2017.json"));
     public Map<String, HotDogFunction> competitors;
     public double duration;
     public String results;
@@ -34,3 +35,4 @@ public class TestCase {
         this.results = results;
     }
 }
+
