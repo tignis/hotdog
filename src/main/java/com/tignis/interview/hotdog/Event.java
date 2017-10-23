@@ -82,4 +82,17 @@ public class Event implements Comparable<Event> {
     public Event rounded() {
         return rounded(3);
     }
+    
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[Elapsed time = ");
+        sb.append(elapsedTime);
+        sb.append(", name = ");
+        sb.append(name);
+        sb.append(", total hotdogs eaten = ");
+        sb.append(totalHotDogsEaten);
+        sb.append("]");
+        return sb.toString();
+    }
 }
