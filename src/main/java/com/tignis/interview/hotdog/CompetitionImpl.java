@@ -14,8 +14,8 @@ import java.util.TreeSet;
  * @author Chaitra
  */
 public class CompetitionImpl extends Competition {
-    private Map<String, HotDogFunction> competitors;
-    private double duration;
+    private final Map<String, HotDogFunction> competitors;
+    private final double duration;
     private String winner;
 
     public CompetitionImpl(Map<String, HotDogFunction> competitors, double duration) {
